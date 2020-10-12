@@ -8,7 +8,7 @@ class AgentAPI extends RESTDataSource {
 
   willSendRequest(request) {
     // TODO: fetch it from request headers when live
-    request.headers.set('X-Optimizely-SDK-Key', 'HSvqwnCy51LdTmpAk54ntv');
+    request.headers.set('X-Optimizely-SDK-Key', '');
   }
 
   async getConfig() {
